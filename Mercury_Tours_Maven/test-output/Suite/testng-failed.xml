@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test3(failed)">
+    <parameter name="upass" value="selenium"/>
+    <parameter name="uname" value="selenium"/>
+    <classes>
+      <class name="com.mercury.tours.Parameter_Sign_On">
+        <methods>
+          <include name="SignOn" invocation-numbers="0"/>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.mercury.tours.Parameter_Sign_On -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test name="ieTest(failed)">
+    <parameter name="browser" value="InternetExplorer"/>
+    <classes>
+      <class name="com.mercury.tours.CrossBrowser_Example">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="SignOn" invocation-numbers="0 1"/>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.mercury.tours.CrossBrowser_Example -->
+    </classes>
+  </test> <!-- ieTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
